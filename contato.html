@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div>
+        <ul class="lista">
+            <li class="item">
+                <a href="html.html">Início</a>
+            </li>
+            <li class="item">
+                <a href="cardapio.html">Cardápio</a>
+            </li>
+            <li class="item"> 
+                <a href="contato.html">Contato</a>
+            </li>
+            <li class="item">
+                <a href="blog.html">Blog</a>
+            </li>
+        </ul>   
+    </div>
+    
+    <h1>Contact</h1>
+    <p class="subti">preencha o formulário a seguir caso queira entrar em contato </p>
+
+<form method="post">
+    <div class="flex-container">
+      <div class="coluna1">
+        <h5>Nome completo</h5>
+        <label for="Nome_completo"></label>
+        <input class="input" placeholder="Digite seu nome" type="text" id="Nome_completo" name="Nome_completo">
+      </div>
+
+      <div class="coluna1">
+       <h5>Estado de Origem</h5>
+       <label for="Estado_natal"></label>
+          <select class="input" name="Estado_natal" id="Estado_natal">
+            <option value=""></option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="TO">Tocantins</option>
+          </select>
+        </div>  
+
+        <div class="coluna1">
+            <h5>Data de nascimento</h5>
+            <label for="nascimento"></label>
+            <input class="input" type="date" id="nascimento" name="nascimento">
+        </div>
+    </div> 
+    <div class="flex-container">
+        <div class="coluna1">
+            <h5>CPF</h5>
+            <label for="cpf"></label>
+            <input class="input" placeholder="Digite seu cpf" type="number" id="cpf" name="cpf">
+        </div>
+
+        <div class="coluna1">
+            <h5>Email</h5>
+            <label for="Email"></label>
+            <input class="input" placeholder="Digite seu email" type="email" id="Email" name="Email">
+        </div>
+
+        <div class="coluna1">
+            <h5>Telefone ou Celular</h5>
+            <label for="celular"></label>
+            <input class="input" placeholder="Digite seu número" type="tel" id="celular" name="celular">
+        </div>
+    </div> 
+    <div class="flex-container2">
+        <div class="coluna3">
+        <h5 class="mensagem">Informações adicionais</h5>
+          <textarea class="mensagem-box" name="adicionais" id="adicionais" 
+          cols="65" rows="10" style="resize: none;" 
+          placeholder="Digite informações oportunas">
+          </textarea>  
+        </div>
+        <div class="coluna2">
+          <button class="botao" type="submit"><strong>Concluído</strong></button>
+        </div>
+    </div>
+</form>
+</div>
+<hr class="linha">
+
+<div class="flex-container3">
+    <div>
+     <h4>La Ratatouille</h4>
+        <p class="rights">2023 © Imagens Disney/Pixar.<br>Estudante: Déborah Araujo Mendes</p>
+    </div>
+    <div>
+        <h5 class="redes">Redes sociais</h5>
+        <div  class="flex-container2">
+            <a href="https://www.instagram.com/catolicadebrasilia/?hl=en" target="_blank">
+            <img class="insta" src="fotos/insta-20.png" alt=""></a>
+
+            <a href="https://twitter.com/catolica" target="_blank">
+            <img class="twitter" src="fotos/twitter-20.png" alt=""></a>
+
+            <a href="https://www.facebook.com/catolicadebrasilia/" target="_blank">
+            <img class="face" src="fotos/face-20.png" alt=""></a>
+        </div>
+    </div>
+    <div>
+        <h5 class="rodape-tit">Contatos</h5>
+        <p class="dados">Telefone: +33 1 23 45 67 89</p>
+        <p class="dados">Email: la.ratatouille@gmail.com</p>
+    </div>
+    <div>
+        <h5 class="rodape-tit">Adicionais</h5>
+        <p class="dados">Restaurante meramente fictício<br>
+        Alguns textos extraídos do chatgpt
+            <a href="https://openai.com/blog/chatgpt"target="_blank">
+            <img class="chatgpt" src="fotos/chatgpt-20.png" alt=""></a>
+        </p>
+
+    </div>
+</body>
+</html>

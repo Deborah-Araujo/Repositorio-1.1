@@ -1,0 +1,190 @@
+/*LINKS DE FONTES*/
+@font-face {
+    font-family: 'Museo';
+    src: url(museo-sans-rounded-cufonfonts/MuseoSansRounded300.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Yeseva';
+    src: url(Yeseva_One/YesevaOne-Regular.ttf) format('truetype');
+}
+
+/*BODY DO CARDÁPIO*/
+body{
+    background: url(fotos/restaurante.png);
+    background-repeat: no-repeat;
+    background-color: #E4DAC6;
+    background-size: contain;
+}
+
+/*MENU*/
+li{
+    display: inline-block;
+    width: 100px;
+    margin-left: 2px;
+    padding: 5px;
+    margin-top: 3px;
+}
+ul{ 
+    margin-left: -18px;
+    text-align: center;
+    background-color: transparent;
+    width: 500px;
+    height: 40px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Museo', Arial, sans-serif;
+    color: #161622;
+    font-size: 18px;
+    transition: .4s;
+}
+a:hover{
+    color: #D9BF65;
+}
+
+/*TÍTULOS PRINCIPAIS*/
+h1{
+    font-family: 'Yeseva', Arial, serif;
+    text-align: center;
+    margin-top: 600px;
+    font-size: 70px;
+    color: #D9BF65;
+    line-height: 5px;
+    text-shadow: 3px 3px 5px #d9c065b9;
+}
+::selection{
+    background-color: #B3BF56;
+}
+
+/*GALERIA DE DIVS PRA ORGANZAR*/
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.coluna1{
+    width: 30%;
+    height: 450px;
+    margin-left: 32px;
+}
+
+/*CONTEÚDO ESCRITO DA PÁGINA*/
+.subt2{
+    font-family: 'Yeseva', Arial, serif;
+    font-size: 35px;
+    color: #733D29;
+    margin-left: 50px;
+}
+.subt1{
+    font-family: 'Museo', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 22px;
+    color: #733D29;
+}
+.pa1{
+    font-family: 'Museo', Arial, sans-serif;
+    color: #161622;
+    text-align: justify;   
+    margin-left: 95px;
+    font-style: italic;
+}
+.pa2{
+    font-family: 'Museo', Arial, sans-serif;
+    color: #161622;
+    text-align: justify;   
+    margin-left: 160px;
+    font-style: italic;
+}
+.pa3{
+    font-family: 'Museo', Arial, sans-serif;
+    color: #161622;
+    text-align: justify;   
+    margin-left: 70px;
+    font-style: italic;
+}
+.pa4{
+    font-family: 'Museo', Arial, sans-serif;
+    color: #161622;
+    text-align: justify;   
+    margin-left: 125px;
+    font-style: italic;
+}
+.pa5{
+    font-family: 'Museo', Arial, sans-serif;
+    color: #161622;
+    text-align: justify;   
+    margin-left: 120px;
+    font-style: italic;
+}
+
+/*IMAGENS*/
+.img{
+    margin-left: 25px;
+    border-radius: 15px;
+    margin-top: 5px;
+    box-shadow: 20px 20px 15px rgb(182, 174, 158);
+    transition: .6s;
+}
+.img:hover{
+    box-shadow: 20px 20px 15px rgb(145, 138, 124);
+    text-shadow: none;
+    transform: scale(1.02);
+}
+
+/*RODAPÉ*/
+.linha{
+    background-color: #D9BF65;
+    height: 5px;
+    border: none;
+    margin-top: 50px;
+}
+h4{
+    font-family: 'Yeseva', Arial, serif;
+    font-size: 25px;
+    color: #D9BF65;
+    margin-left: 50px;
+    line-height: 2px;
+}
+.rights{
+    font-family: 'Museo', Arial, serif;
+    color: #161622;
+    margin-left: 50px;
+    font-size: 14px;
+}
+h5{
+    font-family: 'Museo', Arial, serif;
+    font-size: 20px;
+    color: #733D29;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.redes{
+    font-family: 'Museo', Arial, serif;
+    font-size: 20px;
+    color: #733D29;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.dados{
+    font-family: 'Museo', Arial, serif;
+    color: #161622;
+    margin-left: 200px;
+    font-size: 14px;
+    line-height: 1px;
+}
+.insta{
+    margin-left: 100px;
+}
+.twitter{
+    margin-left: 30px;
+    margin-bottom: 4px;
+}
+.face{
+    margin-left: 29px;
+    margin-bottom: 10px;
+}
+.chatgpt{
+    margin-left: 5px;
+    line-height: 1px;
+}
+
